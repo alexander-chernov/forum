@@ -1,0 +1,37 @@
+/* Easy Slider */
+	#slider ul, #slider li {
+		margin:0;
+		padding:0;
+		list-style:none;
+		}
+	#slider li{ 
+		width:345px;
+		height:320px;
+		overflow:hidden; 
+		background: none;
+		}
+		
+	#slider li img { height:100%; width:100% }	
+	
+	#prevBtn, #nextBtn { 
+		display:block;
+		width:45px;
+		height:320px;
+		position:absolute;
+		z-index:300;top:0px; z-index:0;
+		}	
+	#prevBtn { left:0;  }
+	#nextBtn { right:0; }
+		
+	#prevBtn a, #nextBtn a {  
+		display:block; overflow:hidden; text-indent:-999px;
+		position:relative;
+		width:45px;
+		height:320px;
+		background:url(../i/icons/btn_prev.png) no-repeat 0 0;	
+		-background: none; -filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='i/icons/btn_prev.png',sizingMethod='crop');
+		}	
+	#nextBtn a { 
+		background:url(../i/icons/btn_next.png) no-repeat 0 0;	
+		-background: none; -filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='i/icons/btn_next.png',sizingMethod='crop');
+		}	

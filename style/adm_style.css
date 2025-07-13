@@ -1,0 +1,258 @@
+html, body, table, div, form, td, tr, img, p, span, a, h1, h2, h3, h4, h5, h6{
+	padding: 0px;
+	border: 0px solid;
+	border-collapse: collapse;
+	z-index: 1;
+}
+html, body, table, div, form, td, tr, p, span, a, h1, h2, h3, h4, h5, h6{
+	vertical-align: top;
+}
+html, body, div, form, td, tr, img, p, span, a, h1, h2, h3, h4, h5, h6{
+	margin: 0px;
+}
+body, table{
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	font-weight: normal;
+	line-height: 130%;
+	/*text-align: justify;*/
+}
+/*html, body{
+	min-height: 100%;
+}*/
+img{
+	margin: 0px;
+	padding: 0px;
+	border: 0px solid;
+}
+.clear{ 
+	clear: both;  
+	line-height: 0px;
+	font-size: 0px;
+}
+
+
+/* begin text */
+a, a:hover{
+	color: #1F4DB6;
+	text-decoration: none;
+}
+a:hover{ text-decoration: underline;  }
+p{ 
+	margin: 5px 0px 5px 0px;  
+	text-align: left;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #F99406;
+	font-weight: bold;
+	margin: 5px 0px 5px 0px;
+}
+h1 a, h1 a:hover{
+	color: #F99406;	
+}
+h2{ color: #1F4DB6;  }
+h3{
+	font-size: 13px;
+	font-weight: normal;
+	color: #000000;
+}
+h1 span, h2 span, h3 span{ 
+	color: #062B48;  
+	font-weight: bold;
+}
+
+/**/
+.paging{
+	padding: 0px 0px 10px 0px;
+	text-align: center;
+}
+.paging a, .paging a:hover, .paging span{
+	color: #CBC9C9;
+	margin: 0px 3px 0px 3px;
+	text-decoration: none;
+	font-weight: bold;
+}
+.paging a:hover, .paging span{ color: #605D5C;  }
+
+
+.error, .successful{
+	font-size: 14px;
+	color: #F90320;
+	font-weight: bold;
+}
+.successful{ color: #047C0F;  }
+
+/*.pagepath, .pagepath a, .pagepath a:hover, .pagepath span{
+	color: #6CA3D1;
+	font-size: 11px;
+}
+.pagepath a, .pagepath span{
+	margin: 0px 5px 0px 5px;
+}*/
+
+/* end text */
+
+/* begin grid */
+html{ 
+	height: 100%;
+	background-color: #012F51; 
+}
+body{
+	background: url(/images/adm/left.jpg) no-repeat top left;
+	padding: 0px 50px 0px 50px;
+}
+
+.top{ 
+	height: 37px;
+	padding-top: 45px;
+	background: #000000 url(/images/adm/top.jpg) no-repeat top left;
+}
+.bottom{ 
+	height: 70px;
+	background: #000000 url(/images/adm/bottom.jpg) no-repeat center;
+}
+
+/* begin menu */
+.menu{ 
+	text-align: left;
+}
+.menu a, .menu span{
+	display: block;
+	font-size: 14px;
+	color: #062B48;
+	font-weight: bold;
+	text-decoration: underline;
+	margin: 7px 0px 7px 0px;
+}
+.menu a:hover, .menu span{
+	color: #FF9A04;
+	text-decoration: underline;
+}
+.menu span{ text-decoration: none;  }
+
+
+.submenu{
+	padding: 10px 0px 0px 230px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #FFA000;
+}
+.submenu a, .submenu a:hover, .submenu span{
+	font-size: 13px;
+	font-weight: bold;
+	text-decoration: underline;
+	color: #D7D7D7;
+	margin: 0px 5px 0px 5px;
+}
+.submenu a:hover, .submenu span{ 
+	text-decoration: none;  
+}
+
+/* end menu */
+
+.grid{ 
+	width: 100%;
+	background: #EEEEEE;
+	padding: 0px;
+}
+.grid td{
+	margin: 0px;
+}
+.grid .col1{
+	width: 190px;
+	background: url(/images/adm/top1.jpg) no-repeat top left;
+	border: 0px;
+	padding: 10px 10px 20px 10px;
+	border-right: 1px solid #D3D3D3;
+}
+.grid .col2{
+	border: 0px;
+	padding: 10px;
+}
+
+/* end grid */
+
+
+
+
+.png{ behavior: url('/js/adm_pngbehavior.htc');  }
+.alc{ text-align: center;  }
+.alr{ text-align: right;  }
+.alm{ vertical-align: middle;  }
+
+.fr{ float: right;  }
+
+
+.theme{
+	width: 100%;	
+	margin: 5px 0px 5px 0px;
+}
+.theme th{
+	background-color: #012F51;
+	font-weight: bold;
+	color: #FFFFFF;
+	vertical-align: middle;
+	padding: 4px;
+}
+.theme th a, .theme th a:hover{
+	color: #FFFFFF;
+}
+.theme td{
+	border: 1px solid #032F52;
+	padding: 4px;
+}
+.theme .tr1 td{ background-color: #EFF4F8;  }
+.theme .tr2 td{ background-color: #DEE3E7;  }
+.theme .tr3 td{ background-color: #FFA000;  }
+.theme .trpl td{ background-color: #FBE4C2;  }
+.theme .trskr td{ background-color: #C8C8C8;  }
+
+.mess1, .mess2{
+	border: 1px solid #032F52;
+	margin: 10px 0px;	
+	background-color: #EFF4F8;
+	padding: 5px 5px 10px 5px;
+}
+.mess2{
+	background-color: #DEE3E7;
+}
+.tx{
+	padding: 10px 0px 0px 0px;
+	border-top: 1px solid #032F52;
+	margin-top: 3px;
+}
+.tx1{
+	padding: 10px 0px 0px 0px;
+	margin-top: 3px;
+}
+
+
+/* begin form */
+input, textarea{
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000000;
+}
+label{
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000000;
+	margin-top: 4px;
+}
+.btn, .sel{
+	margin: 5px;
+}
+
+form#mainform {
+	padding: 10px 0px;
+}
+
+.tform td{
+	padding: 2px 4px 2px 4px;
+}
+/* end form */

@@ -1,0 +1,85 @@
+<script type="text/javascript">
+	{if $_params.id} 
+		var indexes = new Array(0, {$_params.id}); 
+	{else}
+		var indexes = new Array(0);
+	{/if}
+</script>
+
+{include file="admin/error/error_messages.tpl"}
+
+{if count($_dataGrid) > 0 }
+	<form id="mainform" action="?p={$smarty.get.p}" method="POST">
+		<div style="float:right">
+			<a href="javascript:void(0)" onclick="selectAll('img')">Инвертировать выделение</a>&nbsp;
+			{include file="admin/pager.tpl" up=1}
+		</div>
+		{include file="admin/forum/commerce_functions.tpl" up=1}
+		<table class="theme">
+		<tr>
+			<th><input type="checkbox" onclick="checkAll('img', this.checked, indexes)" /></th>
+		{foreach item=curItem from=$_tableHeaders}
+			<th>{$curItem}</th>
+		{/foreach}
+			<th><img src="/images/admin/book_edit.png" title="Редактировать" alt="Редактировать" /></th> 
+			<th><img src="/images/admin/book_next.png" title="Перейти к теме на форуме" alt="Перейти к теме на форуме" /></th>
+		</tr>
+		{foreach key=key item=curItem from=$_dataGrid}
+		<tr {if $curItem.hidden eq 1}style="background:#999999;"{else}class="tr{if $curItem.is_top eq 1}3{else}{if $key is odd}1{else}2{/if}{/if}" {/if}>
+			<td align="center">
+                <input type="checkbox" id="img_{$curItem.id}" name="img[{$curItem.id}]" />
+                <input type="hidden" name="theme[{$curItem.id}]" value="{$curItem.themeID}"/>
+                <input type="hidden" name="message[{$curItem.id}]" value="{$curItem.messageID}"/>
+                <input type="hidden" name="filename[{$curItem.id}]" value="{$curItem.filename}"/>
+
+            </td>
+			<td><a target=_blank href="/attaches/{$curItem.themeID}/{$curItem.messageID}/{$curItem.filename}"><img id="thumb_pic_{$curItem.id}" src="/attaches/{$curItem.themeID}/{$curItem.messageID}/thumb_{$curItem.filename}" width="100" height="100"></a></td>
+			<td>
+				<a href="/.admin/forum/messages/index/{$curItem.themeID}/" target="_blank">
+						<b>{$curItem.themename}</b><br>{$curItem.message|bbcode|nl2br|truncate}
+				</a>
+			</td>
+			<td>
+				{if $curItem.authorID > 0 && isset($curItem.realname)}
+					{if $curItem.author != $curItem.realname}
+						{$curItem.author}
+						(наст.&nbsp;<a class="name" href="/.admin/users/pager/send/to/{$curItem.authorID}" target="_blank">{$curItem.realname}</a>)
+					{else}
+						<a class="name" href="/.admin/users/pager/send/to/{$curItem.authorID}" target="_blank">{$curItem.realname}</a>
+					{/if}
+				{else}
+					<span class="name1">{$curItem.author}</span>
+				{/if}
+			</td>
+			<td>
+				{if $curItem.author_ip2 neq 0}
+					{$curItem.author_ip2} 
+					<a href="/.admin/bans/ip/add/?ip={$curItem.author_ip2}&themeID={$curItem.themeID}&group={$_params.groupName}" target="_blank">[ban]</a>
+					<a href="/.admin/forum/messages/filter/?addr={$curItem.author_ip2}" target="_blank">[поиск]</a>
+				{/if}
+			</td>
+			<td>{$curItem.created|date_format:"%d/%m/%Y %H:%M"}</td>
+			<td align="center" style="vertical-align:middle">
+				<a href="/.admin/forum/themes/edit/{$curItem.themeID}/" target="_blank">
+					<img src="/images/admin/book_edit.png" title="Редактировать" alt="Редактировать" />
+				</a>
+			</td>
+			<td align="center" style="vertical-align:middle">
+				<a href="/forum/{$curItem.groupID}/{$curItem.themeID}/" target="_blank">
+					<img src="/images/admin/book_next.png" title="Перейти к теме на форуме" alt="Перейти к теме на форуме" />
+				</a>
+			</td>
+		</tr>
+		{/foreach}
+		</table>
+		<input type="hidden" value="" id="event" name="event"/>
+		<input type="hidden" value="1" id="selector" name="selector"/>
+		<div style="float:right">
+			<a href="javascript:void(0)" onclick="selectAll('img')">Инвертировать выделение</a>&nbsp;
+			{include file="admin/pager.tpl"}
+		</div>
+		{include file="admin/forum/commerce_functions.tpl" up=2}
+	</form>
+{else}
+	<div>Не найдено тем</div>
+{/if}

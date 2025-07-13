@@ -1,0 +1,115 @@
+.clsCalendarBody {
+  margin: 0px;
+  padding: 0px;
+  font-family: Verdana;
+  background-color: white;
+}
+.clsCalendarDayName {
+  color: black;
+  background-color: #C6C1F9;
+  width: 26px;
+  text-align: center;
+  border-bottom: 1px solid #7D71EF;
+  cursor: default;
+}
+.clsCalendarFrame {
+  position: absolute;
+  top: -500px;
+  width: 198px;
+  height: 153px;
+  z-index: 1000;
+}
+.clsCalendarImage {
+  border-width: 0px;
+  width: 16px;
+  height: 16px;
+}
+.clsCalendarTable {
+  width: 198px;
+  font-size: 8pt;
+  border: 1px solid #7D71EF;
+}
+.clsCalendarTable TD {
+  padding-left: 4px;
+  padding-right: 4px;
+}
+.clsCalendarTimeCaption {
+  color: white;
+  background-color: #7D71EF;
+  text-align: center;
+  border: 1px solid #6A5CEC;
+  cursor: default;
+}
+.clsCalendarTodayCaption {
+  color: black;
+  background-color: #C6C1F9;
+  text-align: center;
+  border-top: 1px solid #7D71EF;
+  cursor: pointer;
+}
+
+
+.clsCalendarButton {
+  color: white;
+  background-color: #7D71EF;
+  text-align: center;
+  border: 1px solid #6A5CEC;
+  cursor: pointer;
+}
+.clsCalendarOverButton {
+  border-color: #01D2FF;
+}
+
+
+.clsCalendarDiffMonthDay {
+  color: #D0D0D0;
+  border: 1px solid white;
+  cursor: pointer;
+}
+.clsCalendarRestDay {
+  color: #FF5757;
+  border: 1px solid white;
+  cursor: pointer;
+}
+.clsCalendarWorkDay {
+  color: #7D71EF;
+  border: 1px solid white;
+  cursor: pointer;
+}
+.clsCalendarSelDay {
+  border-color: black;
+}
+.clsCalendarToday {
+  font-weight: bold;
+}
+.clsCalendarOverDay {
+  border-color: #D0D0D0;
+}
+
+
+.clsCalendarDropDownList {
+  position: absolute;
+  font-size: 8pt;
+  background-color: #7D71EF;
+  border: 1px solid #01D2FF;
+  overflow: auto;
+  scrollbar-3dlight-color: #7D71EF;
+  scrollbar-arrow-color: #C6C1F9;
+  scrollbar-base-color: #7D71EF;
+  scrollbar-darkshadow-color: #7D71EF;
+  scrollbar-face-color: #7D71EF;
+  scrollbar-highlight-color: #C6C1F9;
+  scrollbar-shadow-color: #C6C1F9;
+  cursor: pointer;
+}
+.clsCalendarListItem {
+  color: white;
+  background-color: #7D71EF;
+  padding-left: 4px;
+}
+.clsCalendarSelListItem {
+  color: #01D2FF;
+}
+.clsCalendarOverListItem {
+  background-color: #968CF4;
+}

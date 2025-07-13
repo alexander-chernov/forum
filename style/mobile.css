@@ -1,0 +1,209 @@
+html, body{
+    height: 100%;
+    min-width: 500px;
+    font-size: 10px;
+}
+table, td, div, form{
+    font-size: 10px;
+}
+.menu *, .submenu *{
+    font-size: 10px;
+}
+.navigation .box_path{
+    font-size: 10px;
+}
+.block_menu, .block_menu_m, .block_menu_b{
+    width: 500px;
+}
+.text_box_1{
+    width: 500px;
+}
+.message_bottom{
+    width:560px;
+    float:left;
+}
+.message_bottom_pager{
+    min-width:360px;
+}
+.submenu{
+    width: 498px;
+}
+.top_block{
+    width: 510px;
+}
+.block_logo {
+    width: 510px;
+}
+.weather{
+    left: 380px;
+    z-index: 1;
+}
+.logo{
+    left: 7px;
+}
+.navigation, .zapret{
+    width: 480px;
+}
+.line1{
+    width: 510px;
+}
+.paging{
+    width: 478px;
+}
+#middle_brn{
+    width: 510px;
+}
+#bottom_brn{
+    width: 510px;
+}
+.block1, .block2{
+    width: 538px;
+}
+.block2{
+    width: 480px;
+}
+.box1{
+    width: 490px;
+}
+.form_box_btn{
+    width:480px;
+}
+.captchas {
+    width: 480px;
+}
+.text_box_0{
+    width: 510px;
+}
+.text_box_2{
+    width: 480px;
+}
+.box_alfavit{
+    width: 480px;
+}
+.box_text{
+    width: 470px;
+}
+.box_pasport{
+    width: 510px;
+}
+.box_pasport_bg{
+    padding: 20px 120px 20px 20px;
+}
+.box_small_text_wide{
+    width:470px;
+}
+.wide_line {
+    width:470px;
+}
+.line2_wide{
+    width:470px;
+}
+.form_mess{
+    width: 510px;
+}
+.inp_text_name{
+    width: 200px;
+}
+.area_text{
+    width: 490px;
+}
+.themes2{
+    width: 510px;
+}
+.themes, .userstable{
+    width: 510px;
+}
+.userstable{
+    width: 508px;
+}
+#user_info_box, #user_info_box_1{
+    width: 412px;
+    top: 100px !important;
+}
+.pasport_info{
+    height: 270px;
+}
+#complaint_box{
+    width: 404px;
+}
+#complaint_box_1{
+    width: 400px;
+}
+select.complaint_sel{
+    width: 440px;
+}
+.message_bottom{
+    width:500px;
+}
+.message_bottom_pager{
+    min-width:360px;
+}
+#user_info_box, #user_info_box_1{
+    display: none;
+    position: absolute;
+    width: 512px;
+    height: 345px;
+    padding: 0px;
+    /*margin: -235px 0px 0px -256px;*/
+    margin-left: -260px;
+    margin-top: 0px;
+    top: 50%;
+    left: 50%;
+    text-align: left;
+
+    background-image: url(../images/user_info_bg.gif);
+    background-position: left top;
+    background-size: cover;
+    /*overflow: auto;*/
+    z-index: 500;
+}
+.pasport1{
+    width: 200px;
+    float: left;
+    padding: 25px 20px 0px 25px;
+}
+.pasport2{
+    width: 220px;
+    padding: 25px 10px 20px 0px;
+    margin-right: 5px;
+    float: right;
+    color: #000;
+}
+.pasport_text_full{
+    width:225px;
+    height: 250px;
+    color: #000;
+    margin-bottom: 7px;
+    overflow-x: hidden;
+}
+.dialog_answer_box_form{
+    width: 300px;
+}
+.dialog_answer_box{
+    width: 320px;
+    min-width: 250px;
+}
+#login_box{
+    top:130px !important;
+}
+.group_sel select, .group_sel option{
+    font-size: 10px;
+}
+.themes2 td.tdw2_top{
+    width: 60px;
+}
+.themes2 td.tdw2{
+    width: 60px;
+}
+.themes2 td.tdw1_top{
+    width: 62px;
+}
+.themes2 td.tdw1{
+    width: 62px;
+}
+.btn_form{
+    width: 61px;
+}
+.box_fls{
+    left:110px !important;
+}
