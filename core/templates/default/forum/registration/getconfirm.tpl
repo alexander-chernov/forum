@@ -1,7 +1,7 @@
 {include file="forum/header.tpl"}
 <div class="navigation">
 	<div class="box_path">
-		:: <a href="#">Томские форумы</A> &nbsp;/&nbsp; Подтверждение пользователя
+		:: <a href="#">Example Forum</A> &nbsp;/&nbsp; Подтверждение пользователя
     </div>
 </div>
 <div id="overlay"></div>

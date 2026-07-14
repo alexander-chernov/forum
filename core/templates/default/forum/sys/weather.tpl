@@ -9,12 +9,12 @@
 				</tbody></table>
 			</td>
 			<td class="table1td2"></td>
-			<td class="table1td3"><a href="http://pogodavtomske.ru/" title="POGODAVTOMSKE.RU - сайт о погоде в г. Томске" target="_blank"><img src="/images/weather.gif" alt="POGODAVTOMSKE.RU - сайт о погоде в г. Томске" title="POGODAVTOMSKE.RU - сайт о погоде в г. Томске"></a><br><span class="gray">Завтра: </span></td>
+			<td class="table1td3"><a href="http://weather.example.com/" title="WEATHER.EXAMPLE.COM — сайт о погоде" target="_blank"><img src="/images/weather.gif" alt="WEATHER.EXAMPLE.COM — сайт о погоде" title="WEATHER.EXAMPLE.COM — сайт о погоде"></a><br><span class="gray">Завтра: </span></td>
 			<td class="table1td4">
             	<span class="temperature">18.4'C</span><br><span class="gray">ночь:&nbsp;13</span>
 
 				<br><span class="gray">день:&nbsp;20</span>
-                <a href="http://pogodavtomske.ru/" title="POGODAVTOMSKE.RU - сайт о погоде в г. Томске" class="pogoda" target="_blank">подробнo...</a>
+                <a href="http://weather.example.com/" title="WEATHER.EXAMPLE.COM — сайт о погоде" class="pogoda" target="_blank">подробнo...</a>
             </td>
 		</tr>
 		</tbody>

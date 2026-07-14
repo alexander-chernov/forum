@@ -16,7 +16,7 @@ function getCRC()
 {/literal}
 <div class="navigation">
 	<div class="box_path">
-		:: <a href="#">Томские форумы</A> &nbsp;/&nbsp; <a href="/personal/">Паспорт</a> &nbsp;/&nbsp; <a href="/personal/">Пополнение баланса</a>&nbsp;/&nbsp; 
+		:: <a href="#">Example Forum</A> &nbsp;/&nbsp; <a href="/personal/">Паспорт</a> &nbsp;/&nbsp; <a href="/personal/">Пополнение баланса</a>&nbsp;/&nbsp; 
     </div>
 </div>
 <div class="box_pasport">

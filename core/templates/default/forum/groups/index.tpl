@@ -2,7 +2,7 @@
 <div class="navigation">
 	<div class="complaint"></div>
 	<div class="box_path">
-		:: <a href="#">Томские форумы</A> &nbsp;/&nbsp; {$title_part}
+		:: <a href="#">Example Forum</A> &nbsp;/&nbsp; {$title_part}
     </div>
 </div>
 <div class="line1"></div>

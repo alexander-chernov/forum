@@ -1,7 +1,7 @@
 {include file="forum/header.tpl"}
 <div class="navigation">
 	<div class="box_path">
-		:: <a href="#">Томские форумы</A> &nbsp;/&nbsp; <a href="/personal/">Паспорт</a> &nbsp;/&nbsp; <a href="/personal/">Пополнение баланса</a>&nbsp;/&nbsp; Webmoney
+		:: <a href="#">Example Forum</A> &nbsp;/&nbsp; <a href="/personal/">Паспорт</a> &nbsp;/&nbsp; <a href="/personal/">Пополнение баланса</a>&nbsp;/&nbsp; Webmoney
     </div>
 </div>
 <div class="box_pasport">
@@ -29,7 +29,7 @@
 </table>
 <input type="hidden" name="LMI_PAYMENT_DESC" value="Pay money to account {$_system_user.userID} in forum.site">
 <input type="hidden" name="userid" value="{$_system_user.userID}">
-<input type="hidden" name="LMI_PAYEE_PURSE" value="R254408768028">
+<input type="hidden" name="LMI_PAYEE_PURSE" value="XXXXXXXXXXX">
 <input type="hidden" name="LMI_PAYMENT_NO" value="1024">
 <input type="hidden" name="LMI_MODE" value="1"> 
 <input type="hidden" name="LMI_SIM_MODE" value="0">

@@ -8,7 +8,7 @@
 				$this->DbManager = $args[0]['DbManager'];
 		}
 		
-		public function checkWM($wmid, $payee_purse, $payment_no, $secret_key, $proxy = '192.168.151.101:3128'){
+		public function checkWM($wmid, $payee_purse, $payment_no, $secret_key, $proxy = '127.0.0.1:3128'){
 			$payee_purse = preg_match_all('/^([A-z]{1,1})([0-9]{4,})/ims', trim($payee_purse), $_res);
 			$payee_purse = $_res[0][0];
 

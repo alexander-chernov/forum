@@ -93,9 +93,9 @@
 	{/if}
 	<div class="box_path">
         {if $is_mobile eq 'mobile'}
-            :: <a href="/forum/">Томские форумы</a> &nbsp;/&nbsp;<a href="/forum/{$current_group.groupID}/{$current_theme.themeID}/">{$current_theme.caption|strip_tags|htmlspecialchars|html_entity_decode|truncate:50}</a>
+            :: <a href="/forum/">Example Forum</a> &nbsp;/&nbsp;<a href="/forum/{$current_group.groupID}/{$current_theme.themeID}/">{$current_theme.caption|strip_tags|htmlspecialchars|html_entity_decode|truncate:50}</a>
         {else}
-            :: <a href="/forum/">Томские форумы</a> &nbsp;/&nbsp; <a href="/forum/{$current_group.groupID}/">{$current_group.caption|strip_tags|htmlspecialchars|html_entity_decode}</a> &nbsp;/&nbsp; <a href="/forum/{$current_group.groupID}/{$current_theme.themeID}/">{$current_theme.caption|strip_tags|htmlspecialchars|html_entity_decode|truncate:50}</a>
+            :: <a href="/forum/">Example Forum</a> &nbsp;/&nbsp; <a href="/forum/{$current_group.groupID}/">{$current_group.caption|strip_tags|htmlspecialchars|html_entity_decode}</a> &nbsp;/&nbsp; <a href="/forum/{$current_group.groupID}/{$current_theme.themeID}/">{$current_theme.caption|strip_tags|htmlspecialchars|html_entity_decode|truncate:50}</a>
         {/if}
 
 		{if $_system_user.is_admin}

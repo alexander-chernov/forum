@@ -12,7 +12,7 @@ class Forum_Manager
     var $CountPerPage = PER_PAGE;
     var $StringCut = 2000;
     var $key = 'SuperStrongPasswordEncryptionWord';
-    var $iv = '12345678';
+    var $iv = 'EncryptedIV';
     private $permissionModel = null;
     private $forumModel = null;
     private $hasCaptcha = false;
@@ -220,11 +220,11 @@ class Forum_Manager
                         fclose($fp);
             */
 
-            if ($_SERVER['SERVER_NAME'] == 'forum.rde.ru') {
+            if ($_SERVER['SERVER_NAME'] == 'forum.example.com') {
                 $_updated = $this->DbManager->selectcell("SELECT TIMESTAMPDIFF(second,updated,now()) FROM forum_db_themes WHERE themeID = ?d", $this->ThemeID);
             } else {
                 $redis = new Redis();
-                $redis->pconnect('192.168.122.11');
+                $redis->pconnect('127.0.0.1');
                 $_updated = time() - $redis->get(sprintf("theme_updated:%d", $this->ThemeID));
                 if ($_updated <= 0) {
                     $_updated = $this->DbManager->selectcell("SELECT TIMESTAMPDIFF(second,updated,now()) FROM forum_db_themes WHERE themeID = ?d", $this->ThemeID);
@@ -321,11 +321,11 @@ class Forum_Manager
                 //как только параметр old_theme_count из сессии превышет OLD_THEME_COUNT, 
                 //то проверять время последнего добавления в старую тему.
                 //Как только прошло больше чем OLD_THEME_TIMEOUT секунд, в тему добавлять можно.
-                if ($_SERVER['SERVER_NAME'] == 'forum.rde.ru') {
+                if ($_SERVER['SERVER_NAME'] == 'forum.example.com') {
                     $_updated = $this->DbManager->selectcell("SELECT TIMESTAMPDIFF(second,updated,now()) FROM forum_db_themes WHERE themeID = ?d", $this->ThemeID);
                 } else {
                     $redis = new Redis();
-                    $redis->pconnect('192.168.122.11');
+                    $redis->pconnect('127.0.0.1');
                     $_updated = time() - $redis->get(sprintf("theme_updated:%d", $this->ThemeID));
                     if ($_updated <= 0) {
                         $_updated = $this->DbManager->selectcell("SELECT TIMESTAMPDIFF(second,updated,now()) FROM forum_db_themes WHERE themeID = ?d", $this->ThemeID);
@@ -1815,7 +1815,7 @@ class Forum_Manager
             $Mailer->ContentType = "text/html";
             $Mailer->CharSet = 'UTF-8';
 
-            $Mailer->AddAddress('chernov-aa@rde.ru'); // кому - адрес, Имя
+            $Mailer->AddAddress('admin@example.com'); // кому - адрес, Имя
             $Mailer->Subject = "Бот атака (уведомление)";  // тема письма
             $Mailer->Body = $message;
 
@@ -2152,11 +2152,11 @@ class Forum_Manager
             $ds->assign("__countperpage", $this->CountPerPage);
             $lastMess = $this->GetRealLastMessTheme($this->ThemeID);
 
-            if ($_SERVER['SERVER_NAME'] == 'forum.rde.ru') {
+            if ($_SERVER['SERVER_NAME'] == 'forum.example.com') {
                 $_updated = $this->DbManager->selectcell("SELECT TIMESTAMPDIFF(second,updated,now()) FROM forum_db_themes WHERE themeID = ?d", $this->ThemeID);
             } else {
                 $redis = new Redis();
-                $redis->pconnect('192.168.122.11');
+                $redis->pconnect('127.0.0.1');
                 $_updated = time() - $redis->get(sprintf("theme_updated:%d", $this->ThemeID));
                 if ($_updated <= 0) {
                     $_updated = $this->DbManager->selectcell("SELECT TIMESTAMPDIFF(second,updated,now()) FROM forum_db_themes WHERE themeID = ?d", $this->ThemeID);
@@ -2476,9 +2476,9 @@ class Forum_Manager
                         $_user_info['authorID'],
                         $this->ThemeID);
                     //Redis optimize BEGIN
-                    if ($_SERVER['SERVER_NAME'] != 'forum.rde.ru') {
+                    if ($_SERVER['SERVER_NAME'] != 'forum.example.com') {
                         $redis = new Redis();
-                        $redis->pconnect('192.168.122.11');
+                        $redis->pconnect('127.0.0.1');
                         $key = sprintf("theme_updated:%d", $this->ThemeID);
                         $redis->set($key, time());
                     }

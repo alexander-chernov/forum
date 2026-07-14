@@ -47,7 +47,7 @@ $(window).load(function () {
 
 <div class="navigation">
 	<div class="box_path">
-		:: <a href="#">Томские форумы</A> &nbsp;/&nbsp; Обрезка
+		:: <a href="#">Example Forum</A> &nbsp;/&nbsp; Обрезка
     </div>
 </div>
 <div class="box_pasport">

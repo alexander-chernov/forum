@@ -2,7 +2,7 @@
   "http://www.w3c.org/tr/1999/REC-html401-19991224/loose.dtd">
 <html prefix="og: http://ogp.me/ns#">
 <head>
-<title>ТОМСКИЕ ФОРУМЫ | {if $title}{$title}{/if} {$title_part}</title>
+<title>EXAMPLE FORUM | {if $title}{$title}{/if} {$title_part}</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <link href="/favicon.ico" rel="shortcut icon">
     <meta http-equiv="Content-Style-Type" content="text/css">
@@ -10,8 +10,8 @@
     <meta http-equiv="pragma" content="no-cache">
     <meta http-equiv="Cache-control" content="no-cache">
     <meta name='yandex-verification' content='5fc97dda37552e7c' />
-    <meta property="og:title" content="ТОМСКИЕ ФОРУМЫ | {if $title}{$title}{/if} {$title_part}" />
-    <meta property="og:description" content="Томские форумы. Общение на любые темы." />
+    <meta property="og:title" content="EXAMPLE FORUM | {if $title}{$title}{/if} {$title_part}" />
+    <meta property="og:description" content="Example Forum. Общение на любые темы." />
     <meta property="og:image" content="http://forum.site/images/logo.png" />
 
     <link href="/style/style.css?time={$smarty.now}" type="text/css" rel="stylesheet">
@@ -100,7 +100,7 @@
                 m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
         })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-        ga('create', 'UA-41114943-1', 'forum.site');
+        ga('create', 'UA-00000000-0', 'forum.site');
         ga('send', 'pageview');
         </script>
     {/literal}
@@ -149,7 +149,7 @@
 
         </div>
         <div class="box_brn">
-            <h1 class="corner">Акции Томска</h1>
+            <h1 class="corner">Акции</h1>
             <br style="clear:both">
             <div id="actions"></div>
         {literal}
@@ -196,7 +196,7 @@
 		{include file="forum/weather_informer.tpl"}
 	</div>
 	<div class="logo">
-	    <a href="/forum/"><img src="/images/logo.png" alt="Томские Форумы" title="Томские Форумы" border="0"></a>
+	    <a href="/forum/"><img src="/images/logo.png" alt="Example Forum" title="Example Forum" border="0"></a>
 	</div>
 </div>
 

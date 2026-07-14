@@ -56,7 +56,7 @@ function deleteUser(userId,userList) {
 {/literal}
 <div class="navigation">
 	<div class="box_path">
-		<a href="/forum/">Томские форумы</a> &nbsp;/&nbsp; <a href="/forum/{$group_info.groupID}/">{$group_info.caption}</a>  &nbsp;/&nbsp; Настройки группы.
+		<a href="/forum/">Example Forum</a> &nbsp;/&nbsp; <a href="/forum/{$group_info.groupID}/">{$group_info.caption}</a>  &nbsp;/&nbsp; Настройки группы.
     </div>
 </div>
 <div id="overlay"></div>

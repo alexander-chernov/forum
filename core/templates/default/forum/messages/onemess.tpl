@@ -10,7 +10,7 @@
 		</div>
 	{/if}
 	<div class="box_path">
-		:: <a href="/forum/">Томские форумы</a> &nbsp;/&nbsp; <a href="/forum/{$current_group.groupID}/">{$current_group.caption|strip_tags|htmlspecialchars}</a> &nbsp;/&nbsp; <a href="/forum/{$current_group.groupID}/{$current_theme.themeID}/">{$current_theme.caption|strip_tags|htmlspecialchars}</a>
+		:: <a href="/forum/">Example Forum</a> &nbsp;/&nbsp; <a href="/forum/{$current_group.groupID}/">{$current_group.caption|strip_tags|htmlspecialchars}</a> &nbsp;/&nbsp; <a href="/forum/{$current_group.groupID}/{$current_theme.themeID}/">{$current_theme.caption|strip_tags|htmlspecialchars}</a>
 		{if $_system_user.is_admin}
 			&nbsp;<a href="/.admin/forum/themes/edit/{$current_theme.themeID}/" target="_blank">[ред.]</a>
 			&nbsp;<a href="/.admin/forum/messages/index/{$current_theme.themeID}/" target="_blank">[в админку]</a>

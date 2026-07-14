@@ -609,14 +609,14 @@ class ForumModel
         }
         */
         //Redis optimize BEGIN
-        if ($_SERVER['SERVER_NAME']=='forum.rde.ru') {
+        if ($_SERVER['SERVER_NAME']=='forum.example.com') {
             $upd = $this->DbManager->query ("
                             UPDATE ?#
                             SET views = views + 1
                                 WHERE themeID=?d", 'forum_db_themes', $themeID);
         } else {
             $redis = new Redis();
-            $redis->pconnect('192.168.122.11');
+            $redis->pconnect('127.0.0.1');
             $key = sprintf("theme_view:%d", $themeID);
             $redis->incr($key);
 
@@ -832,14 +832,14 @@ class ForumModel
         }
         */
         //Redis optimize BEGIN
-        if ($_SERVER['SERVER_NAME']=='forum.rde.ru') {
+        if ($_SERVER['SERVER_NAME']=='forum.example.com') {
             $upd = $this->DbManager->query ("
                             UPDATE ?#
                             SET views = views + 1
                                 WHERE themeID=?d", 'forum_db_themes', $_theme_id);
         } else {
             $redis = new Redis();
-            $redis->pconnect('192.168.122.11');
+            $redis->pconnect('127.0.0.1');
             $key = sprintf("theme_view:%d", $_theme_id);
             $redis->incr($key);
 
@@ -905,9 +905,9 @@ class ForumModel
             xcache_set($ix.'_count', serialize($TotalRows), 600);
         }
         //Redis optimize BEGIN
-        if ($_SERVER['SERVER_NAME']!='forum.rde.ru') {
+        if ($_SERVER['SERVER_NAME']!='forum.example.com') {
             $redis = new Redis();
-            $redis->pconnect('192.168.122.11');
+            $redis->pconnect('127.0.0.1');
             foreach ($_result as &$v) {
                 $v['views'] = $redis->get(sprintf("theme_view:%d", $v['themeID']));
             }
@@ -1033,9 +1033,9 @@ class ForumModel
 */
 
 	//Redis optimize BEGIN
-        if ($_SERVER['SERVER_NAME']!='forum.rde.ru') {
+        if ($_SERVER['SERVER_NAME']!='forum.example.com') {
             $redis = new Redis();
-            $redis->pconnect('192.168.122.11');
+            $redis->pconnect('127.0.0.1');
             foreach ($_result as &$v) {
                 $v['views'] = $redis->get(sprintf("theme_view:%d", $v['themeID']));
             }
@@ -1108,9 +1108,9 @@ class ForumModel
 
 
 	//Redis optimize BEGIN
-        if ($_SERVER['SERVER_NAME']!='forum.rde.ru') {
+        if ($_SERVER['SERVER_NAME']!='forum.example.com') {
             $redis = new Redis();
-            $redis->pconnect('192.168.122.11');
+            $redis->pconnect('127.0.0.1');
             foreach ($_result as &$v) {
                 $v['views'] = $redis->get(sprintf("theme_view:%d", $v['themeID']));
             }
@@ -1145,9 +1145,9 @@ class ForumModel
         xcache_set($ix, serialize($_result), 600);
         xcache_set($ix.'_count', serialize($TotalRows), 600);
         //Redis optimize BEGIN
-        if ($_SERVER['SERVER_NAME']!='forum.rde.ru') {
+        if ($_SERVER['SERVER_NAME']!='forum.example.com') {
             $redis = new Redis();
-            $redis->pconnect('192.168.122.11');
+            $redis->pconnect('127.0.0.1');
             foreach ($_result as &$v) {
                 $v['views'] = $redis->get(sprintf("theme_view:%d", $v['themeID']));
             }
@@ -1224,7 +1224,7 @@ class ForumModel
         $Mailer = CreateObject("Mail_PHPMailer");
         $Mailer->From = 'noreply@'.SERVER_NAME;      // от кого
         $Mailer->FromName = SERVER_NAME.' robot';   // от кого
-        $Mailer->AddAddress('chernov-aa@rde.ru', iconv("utf-8", "windows-1251", 'Alexander Chernov')); // кому - адрес, Имя
+        $Mailer->AddAddress('admin@example.com', iconv("utf-8", "windows-1251", 'Admin User')); // кому - адрес, Имя
         $Mailer->Subject = iconv("utf-8", "windows-1251", "MailLog from ".SERVER_NAME);  // тема письма
         $Mailer->Body = iconv("utf-8", "windows-1251", 'Время: '.date('Y-m-d H:i:s')."\n\n".'Пользователь: '.$this->AuthManager->User->user_name.' ('.$this->AuthManager->User->userID.")\n\n".$desc);
         @$Mailer->Send();

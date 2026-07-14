@@ -144,7 +144,7 @@ if (ie4) {
     }
 	{/php}
         <h3 style="text-align: center"><a href="#">{$user_info.user_name}</a></h3>
-        <span class="user_info_date">был на FTR: {$user_info.lastlogin|date_format:"%d/%m/%Y %H:%M"}</span>
+        <span class="user_info_date">был на форуме: {$user_info.lastlogin|date_format:"%d/%m/%Y %H:%M"}</span>
         <!-- <span class="user_info_date_act">сейчас на сайте</span> -->
     </div>
     <div class="dialog_brn_box" id="ajax_form_message">

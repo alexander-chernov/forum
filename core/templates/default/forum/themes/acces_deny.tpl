@@ -1,7 +1,7 @@
 {include file="forum/header.tpl"}
 <div class="navigation">
 	<div class="box_path">
-		<a href="/forum/">Томские форумы</a> &nbsp;/&nbsp; <a href="/forum/{$current_group.groupID}/">{$current_group.caption}</a>  &nbsp;/&nbsp; <a href="/forum/{$current_group.groupID}/{$current_theme.themeID}/">{$current_theme.caption}</a>
+		<a href="/forum/">Example Forum</a> &nbsp;/&nbsp; <a href="/forum/{$current_group.groupID}/">{$current_group.caption}</a>  &nbsp;/&nbsp; <a href="/forum/{$current_group.groupID}/{$current_theme.themeID}/">{$current_theme.caption}</a>
     </div>
 </div>
 <div id="overlay"></div>

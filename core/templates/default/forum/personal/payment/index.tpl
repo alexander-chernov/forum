@@ -1,7 +1,7 @@
 {include file="forum/header.tpl"}
 <div class="navigation">
 	<div class="box_path">
-		:: <a href="#">Томские форумы</A> &nbsp;/&nbsp; <a href="/personal/">Паспорт</a> &nbsp;/&nbsp; Пополнение баланса
+		:: <a href="#">Example Forum</A> &nbsp;/&nbsp; <a href="/personal/">Паспорт</a> &nbsp;/&nbsp; Пополнение баланса
     </div>
 </div>
 <div class="box_pasport">
@@ -34,8 +34,8 @@
 
     <tr valign="top">
         <td><a href="/personal/payment/"><img src="/images/payment/pay.jpg" border="0"></a></td>
-        <td><p align="left" style="color:#000000;"><b>В офисе компании "Рекламный дайджест"</b><br>
-                Вы можете пополнить свой баланс, произведя оплату в офисе компании, предварительно позвонив по телефону 52-10-01 доп. 360.<br>
+        <td><p align="left" style="color:#000000;"><b>В офисе компании "Example Holding"</b><br>
+                Вы можете пополнить свой баланс, произведя оплату в офисе компании, предварительно позвонив по телефону +7 (000) 000-00-00, доб. 000.<br>
                 Комиссия отсутствует.<br></p>
         </td>
     </tr>

@@ -2,7 +2,7 @@
 
 <div class="navigation">
     <div class="box_path">
-        :: <a href="#">Томские форумы</A> &nbsp;/&nbsp; Согласие на обработку персональных данных
+        :: <a href="#">Example Forum</A> &nbsp;/&nbsp; Согласие на обработку персональных данных
     </div>
 </div>
 <div id="overlay"></div>

@@ -1,5 +1,5 @@
 {include file="forum/header.tpl"}
-<div class="blacktr navigation">:: <a href="/forum/">Томские форумы</a> &nbsp;/&nbsp; TOP 50 ГОРЯЧИХ ТЕМ</div><table class="themes">
+<div class="blacktr navigation">:: <a href="/forum/">Example Forum</a> &nbsp;/&nbsp; TOP 50 ГОРЯЧИХ ТЕМ</div><table class="themes">
 
 <tbody>
 {section name="t" loop="$themes"}

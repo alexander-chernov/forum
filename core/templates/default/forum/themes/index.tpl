@@ -5,7 +5,7 @@
 {/if}
 	<div class="complaint"></div>
 	<div class="box_path">
-		:: <a href="/forum/">Томские форумы</A> &nbsp;/&nbsp; <a href="">{$title_part|strip_tags|htmlspecialchars|html_entity_decode} {if $current_group.is_mat}{/if}</a>
+		:: <a href="/forum/">Example Forum</A> &nbsp;/&nbsp; <a href="">{$title_part|strip_tags|htmlspecialchars|html_entity_decode} {if $current_group.is_mat}{/if}</a>
     </div>
 </div>
 <div class="line1"></div>

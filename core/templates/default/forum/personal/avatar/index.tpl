@@ -1,7 +1,7 @@
 {include file="forum/header.tpl"}
 <div class="navigation">
 	<div class="box_path">
-		:: <a href="#">Томские форумы</A> &nbsp;/&nbsp; Загрузка аватары
+		:: <a href="#">Example Forum</A> &nbsp;/&nbsp; Загрузка аватары
     </div>
 </div>
 <div class="box_pasport">

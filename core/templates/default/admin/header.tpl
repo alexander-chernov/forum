@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>ТОМСКИЕ ФОРУМЫ | АДМИН | 
+<title>EXAMPLE FORUM | АДМИН | 
 {if isset($_params.groupName)}
 	{$_params.groupName|strip_tags}
 	{if isset($_params.themeName)}

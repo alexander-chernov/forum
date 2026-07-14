@@ -20,7 +20,7 @@
 
 <div class="navigation">
 	<div class="box_path">
-		:: <a href="/forum/">Томские форумы</A> &nbsp;/&nbsp; Список пользователей
+		:: <a href="/forum/">Example Forum</A> &nbsp;/&nbsp; Список пользователей
     </div>
 </div>
 <div class="line1"></div>

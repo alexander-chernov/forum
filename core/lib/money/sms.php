@@ -6,8 +6,7 @@ class Money_Sms
  	var	$limit = 0;
 	var	$lang_switcher = true;
 	var	$DefaultLang = 'ru';
-//	var $ProjectID = 32400;
-	var $ProjectID = 31255;
+	var $ProjectID = 'XXXXXXXXXXX';
 	function __construct()
 	{
 		$this->AuthManager = CreateObject("Auth_Manager");

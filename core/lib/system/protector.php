@@ -54,7 +54,7 @@ class System_Protector implements Protector
     public function stopForumSpam() {
 
 
-//if ($_SERVER['REMOTE_ADDR'] == '192.168.151.52') {
+//if ($_SERVER['REMOTE_ADDR'] == '10.0.0.52') {
 //    phpinfo();die();
 //}
 

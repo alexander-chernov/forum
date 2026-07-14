@@ -1,6 +1,6 @@
 {literal}<br>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
-<HTML lang=ru><HEAD><TITLE>Размещение информационно-рекламного материала на сайте "Томские Форумы" -- форма ПД-4</TITLE>
+<HTML lang=ru><HEAD><TITLE>Размещение информационно-рекламного материала на сайте "Example Forum" -- форма ПД-4</TITLE>
 <META http-equiv=Content-Type content="text/html; charset=windows-1251">
 
 <style>
@@ -105,7 +105,7 @@ TABLE {
                         ПД-4</I></TD></TR></TBODY></TABLE></TD></TR>
               <TR>
                 <TD class=h8b vAlign=bottom 
-                  align=middle>ООО&nbsp;"Агенство Рекламный Дайджест"&nbsp; </TD></TR>
+                  align=middle>ООО&nbsp;"Example Company"&nbsp; </TD></TR>
               <TR>
                 <TD class=t6n vAlign=top align=middle height=10>(наименование 
                   получателя платежа)</TD></TR>
@@ -122,27 +122,15 @@ TABLE {
                           <TR>
 
                             <TD class=line_lbt align=middle width="10%" 
-                            height=10>7</TD>
-
-                            <TD class=line_lbt align=middle width="10%" 
-                            height=10>0</TD>
-                            <TD class=line_lbt align=middle width="10%" 
-                            height=10>1</TD>
-                            <TD class=line_lbt align=middle width="10%" 
-                            height=10>7</TD>
-                            <TD class=line_lbt align=middle width="10%" 
-                            height=10>1</TD>
-                            <TD class=line_lbt align=middle width="10%" 
-                            height=10>0</TD>
-
-                            <TD class=line_lbt align=middle width="10%" 
-                            height=10>5</TD>
-
-                            <TD class=line_lbt align=middle width="10%" 
-                            height=10>0</TD>
-                            <TD class=line_lbt align=middle width="10%" 
-                            height=10>9</TD>
-                            <TD class=line_lbt align=middle width="10%" 
+                            height=10>0</TD><TD class=line_lbt align=middle width="10%" 
+                            height=10>0</TD><TD class=line_lbt align=middle width="10%" 
+                            height=10>0</TD><TD class=line_lbt align=middle width="10%" 
+                            height=10>0</TD><TD class=line_lbt align=middle width="10%" 
+                            height=10>0</TD><TD class=line_lbt align=middle width="10%" 
+                            height=10>0</TD><TD class=line_lbt align=middle width="10%" 
+                            height=10>0</TD><TD class=line_lbt align=middle width="10%" 
+                            height=10>0</TD><TD class=line_lbt align=middle width="10%" 
+                            height=10>0</TD><TD class=line_lbt align=middle width="10%" 
                             height=10>0</TD></TR></TBODY></TABLE></TD>
                       <TD vAlign=bottom width="10%">&nbsp;</TD>
                       <TD vAlign=bottom width="60%">
@@ -153,51 +141,26 @@ TABLE {
 
                           <TR>
                             <TD class=line_lbt align=middle width="5%" 
-                              height=10>4</TD>
-                            <TD class=line_lbt align=middle width="5%" 
-                              height=10>0</TD>
-                            <TD class=line_lbt align=middle width="5%" 
-                              height=10>7</TD>
-                            <TD class=line_lbt align=middle width="5%" 
-                              height=10>0</TD>
-
-                            <TD class=line_lbt align=middle width="5%" 
-                              height=10>2</TD>
-
-                            <TD class=line_lbt align=middle width="5%" 
-                              height=10>8</TD>
-                            <TD class=line_lbt align=middle width="5%" 
-                              height=10>1</TD>
-                            <TD class=line_lbt align=middle width="5%" 
-                              height=10>0</TD>
-                            <TD class=line_lbt align=middle width="5%" 
-                              height=10>2</TD>
-                            <TD class=line_lbt align=middle width="5%" 
-                              height=10>6</TD>
-
-                            <TD class=line_lbt align=middle width="5%" 
-                              height=10>0</TD>
-
-                            <TD class=line_lbt align=middle width="5%" 
-                              height=10>0</TD>
-                            <TD class=line_lbt align=middle width="5%" 
-                              height=10>1</TD>
-                            <TD class=line_lbt align=middle width="5%" 
-                              height=10>0</TD>
-                            <TD class=line_lbt align=middle width="5%" 
-                              height=10>3</TD>
-                            <TD class=line_lbt align=middle width="5%" 
-                              height=10>2</TD>
-
-                            <TD class=line_lbt align=middle width="5%" 
-                              height=10>8</TD>
-
-                            <TD class=line_lbt align=middle width="5%" 
-                              height=10>7</TD>
-                            <TD class=line_lbt align=middle width="5%" 
-                              height=10>0</TD>
-                            <TD class=line_lbt align=middle width="5%" 
-                              height=10>1</TD></TR></TBODY></TABLE></TD></TR>
+                              height=10>0</TD><TD class=line_lbt align=middle width="5%" 
+                              height=10>0</TD><TD class=line_lbt align=middle width="5%" 
+                              height=10>0</TD><TD class=line_lbt align=middle width="5%" 
+                              height=10>0</TD><TD class=line_lbt align=middle width="5%" 
+                              height=10>0</TD><TD class=line_lbt align=middle width="5%" 
+                              height=10>0</TD><TD class=line_lbt align=middle width="5%" 
+                              height=10>0</TD><TD class=line_lbt align=middle width="5%" 
+                              height=10>0</TD><TD class=line_lbt align=middle width="5%" 
+                              height=10>0</TD><TD class=line_lbt align=middle width="5%" 
+                              height=10>0</TD><TD class=line_lbt align=middle width="5%" 
+                              height=10>0</TD><TD class=line_lbt align=middle width="5%" 
+                              height=10>0</TD><TD class=line_lbt align=middle width="5%" 
+                              height=10>0</TD><TD class=line_lbt align=middle width="5%" 
+                              height=10>0</TD><TD class=line_lbt align=middle width="5%" 
+                              height=10>0</TD><TD class=line_lbt align=middle width="5%" 
+                              height=10>0</TD><TD class=line_lbt align=middle width="5%" 
+                              height=10>0</TD><TD class=line_lbt align=middle width="5%" 
+                              height=10>0</TD><TD class=line_lbt align=middle width="5%" 
+                              height=10>0</TD><TD class=line_lbt align=middle width="5%" 
+                              height=10>0</TD></TR></TBODY></TABLE></TD></TR>
                     <TR>
                       <TD class=t6n vAlign=top align=middle>(ИНН получателя 
                         платежа)</TD>
@@ -214,7 +177,7 @@ TABLE {
 
                       <TD class=t8n vAlign=bottom width=10>в</TD>
                       <TD class=h8b vAlign=bottom 
-                        align=middle>Томский&nbsp;филиал&nbsp;ОАО&nbsp;"Промсвязьбанк" г.Томска 
+                        align=middle>Филиал&nbsp;банка&nbsp;"Example Bank"&nbsp;г.&nbsp;Пример 
                       </TD>
 
                       <TD class=t8n vAlign=bottom align=right 
@@ -228,24 +191,24 @@ TABLE {
                             <TD class=line_lbt align=middle width="10%" 
                             height=10>0</TD>
                             <TD class=line_lbt align=middle width="10%" 
-                            height=10>4</TD>
+                            height=10>0</TD>
 
-                            <TD class=line_lbt align=middle width="10%" 
-                            height=10>6</TD>
-                            <TD class=line_lbt align=middle width="10%" 
-                            height=10>9</TD>
-
-                            <TD class=line_lbt align=middle width="10%" 
-                            height=10>1</TD>
                             <TD class=line_lbt align=middle width="10%" 
                             height=10>0</TD>
-                            <TD class=line_lbt align=middle width="10%" 
-                            height=10>7</TD>
                             <TD class=line_lbt align=middle width="10%" 
                             height=10>0</TD>
 
                             <TD class=line_lbt align=middle width="10%" 
-                            height=10>7</TD></TR></TBODY></TABLE></TD></TR>
+                            height=10>0</TD>
+                            <TD class=line_lbt align=middle width="10%" 
+                            height=10>0</TD>
+                            <TD class=line_lbt align=middle width="10%" 
+                            height=10>0</TD>
+                            <TD class=line_lbt align=middle width="10%" 
+                            height=10>0</TD>
+
+                            <TD class=line_lbt align=middle width="10%" 
+                            height=10>0</TD></TR></TBODY></TABLE></TD></TR>
                     <TR>
 
                       <TD>&nbsp;</TD>
@@ -270,51 +233,26 @@ TABLE {
                           <TR>
 
                             <TD class=line_lbt align=middle width="5%" 
-                              height=10>3</TD>
-                            <TD class=line_lbt align=middle width="5%" 
-                              height=10>0</TD>
-                            <TD class=line_lbt align=middle width="5%" 
-                              height=10>1</TD>
-                            <TD class=line_lbt align=middle width="5%" 
-                              height=10>0</TD>
-                            <TD class=line_lbt align=middle width="5%" 
-                              height=10>1</TD>
-
-                            <TD class=line_lbt align=middle width="5%" 
-                              height=10>8</TD>
-
-                            <TD class=line_lbt align=middle width="5%" 
-                              height=10>1</TD>
-                            <TD class=line_lbt align=middle width="5%" 
-                              height=10>0</TD>
-                            <TD class=line_lbt align=middle width="5%" 
-                              height=10>5</TD>
-                            <TD class=line_lbt align=middle width="5%" 
-                              height=10>0</TD>
-                            <TD class=line_lbt align=middle width="5%" 
-                              height=10>0</TD>
-
-                            <TD class=line_lbt align=middle width="5%" 
-                              height=10>0</TD>
-
-                            <TD class=line_lbt align=middle width="5%" 
-                              height=10>0</TD>
-                            <TD class=line_lbt align=middle width="5%" 
-                              height=10>0</TD>
-                            <TD class=line_lbt align=middle width="5%" 
-                              height=10>0</TD>
-                            <TD class=line_lbt align=middle width="5%" 
-                              height=10>0</TD>
-                            <TD class=line_lbt align=middle width="5%" 
-                              height=10>0</TD>
-
-                            <TD class=line_lbt align=middle width="5%" 
-                              height=10>7</TD>
-
-                            <TD class=line_lbt align=middle width="5%" 
-                              height=10>0</TD>
-                            <TD class=line_lbt align=middle width="5%" 
-                              height=10>7</TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR>
+                              height=10>0</TD><TD class=line_lbt align=middle width="5%" 
+                              height=10>0</TD><TD class=line_lbt align=middle width="5%" 
+                              height=10>0</TD><TD class=line_lbt align=middle width="5%" 
+                              height=10>0</TD><TD class=line_lbt align=middle width="5%" 
+                              height=10>0</TD><TD class=line_lbt align=middle width="5%" 
+                              height=10>0</TD><TD class=line_lbt align=middle width="5%" 
+                              height=10>0</TD><TD class=line_lbt align=middle width="5%" 
+                              height=10>0</TD><TD class=line_lbt align=middle width="5%" 
+                              height=10>0</TD><TD class=line_lbt align=middle width="5%" 
+                              height=10>0</TD><TD class=line_lbt align=middle width="5%" 
+                              height=10>0</TD><TD class=line_lbt align=middle width="5%" 
+                              height=10>0</TD><TD class=line_lbt align=middle width="5%" 
+                              height=10>0</TD><TD class=line_lbt align=middle width="5%" 
+                              height=10>0</TD><TD class=line_lbt align=middle width="5%" 
+                              height=10>0</TD><TD class=line_lbt align=middle width="5%" 
+                              height=10>0</TD><TD class=line_lbt align=middle width="5%" 
+                              height=10>0</TD><TD class=line_lbt align=middle width="5%" 
+                              height=10>0</TD><TD class=line_lbt align=middle width="5%" 
+                              height=10>0</TD><TD class=line_lbt align=middle width="5%" 
+                              height=10>0</TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR>
               <TR>
                 <TD>
                   <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
@@ -323,7 +261,7 @@ TABLE {
                     <TR>
 
                       <TD class=h8b vAlign=bottom 
-                        width="55%">Размещение&nbsp;информационно-рекламного&nbsp;<BR>материала&nbsp;на&nbsp;сайте&nbsp;"Томские&nbsp;Форумы" (л/с {php}echo $_POST['userid'];{/php})
+                        width="55%">Размещение&nbsp;информационно-рекламного&nbsp;<BR>материала&nbsp;на&nbsp;сайте&nbsp;"Example&nbsp;Forum" (л/с {php}echo $_POST['userid'];{/php})
                       </TD>
                       <TD width="5%">&nbsp;</TD>
                       <TD class=h8b vAlign=bottom>&nbsp;</TD></TR>
@@ -439,7 +377,7 @@ width="4%">&nbsp;201&nbsp;</TD>
               <TBODY>
               <TR>
                 <TD class=h8b vAlign=bottom align=middle 
-                  height=30>ООО&nbsp;"Агенство Рекламный Дайджест"&nbsp; </TD></TR>
+                  height=30>ООО&nbsp;"Example Company"&nbsp; </TD></TR>
               <TR>
                 <TD class=t6n vAlign=top align=middle height=10>(наименование 
                   получателя платежа)</TD></TR>
@@ -457,27 +395,15 @@ width="4%">&nbsp;201&nbsp;</TD>
                           <TR>
 
                             <TD class=line_lbt align=middle width="10%" 
-                            height=10>7</TD>
-
-                            <TD class=line_lbt align=middle width="10%" 
-                            height=10>0</TD>
-                            <TD class=line_lbt align=middle width="10%" 
-                            height=10>1</TD>
-                            <TD class=line_lbt align=middle width="10%" 
-                            height=10>7</TD>
-                            <TD class=line_lbt align=middle width="10%" 
-                            height=10>1</TD>
-                            <TD class=line_lbt align=middle width="10%" 
-                            height=10>0</TD>
-
-                            <TD class=line_lbt align=middle width="10%" 
-                            height=10>5</TD>
-
-                            <TD class=line_lbt align=middle width="10%" 
-                            height=10>0</TD>
-                            <TD class=line_lbt align=middle width="10%" 
-                            height=10>9</TD>
-                            <TD class=line_lbt align=middle width="10%" 
+                            height=10>0</TD><TD class=line_lbt align=middle width="10%" 
+                            height=10>0</TD><TD class=line_lbt align=middle width="10%" 
+                            height=10>0</TD><TD class=line_lbt align=middle width="10%" 
+                            height=10>0</TD><TD class=line_lbt align=middle width="10%" 
+                            height=10>0</TD><TD class=line_lbt align=middle width="10%" 
+                            height=10>0</TD><TD class=line_lbt align=middle width="10%" 
+                            height=10>0</TD><TD class=line_lbt align=middle width="10%" 
+                            height=10>0</TD><TD class=line_lbt align=middle width="10%" 
+                            height=10>0</TD><TD class=line_lbt align=middle width="10%" 
                             height=10>0</TD></TR></TBODY></TABLE></TD>
                       <TD vAlign=bottom width="10%">&nbsp;</TD>
                       <TD vAlign=bottom width="60%">
@@ -488,51 +414,26 @@ width="4%">&nbsp;201&nbsp;</TD>
 
                           <TR>
                             <TD class=line_lbt align=middle width="5%" 
-                              height=10>4</TD>
-                            <TD class=line_lbt align=middle width="5%" 
-                              height=10>0</TD>
-                            <TD class=line_lbt align=middle width="5%" 
-                              height=10>7</TD>
-                            <TD class=line_lbt align=middle width="5%" 
-                              height=10>0</TD>
-
-                            <TD class=line_lbt align=middle width="5%" 
-                              height=10>2</TD>
-
-                            <TD class=line_lbt align=middle width="5%" 
-                              height=10>8</TD>
-                            <TD class=line_lbt align=middle width="5%" 
-                              height=10>1</TD>
-                            <TD class=line_lbt align=middle width="5%" 
-                              height=10>0</TD>
-                            <TD class=line_lbt align=middle width="5%" 
-                              height=10>2</TD>
-                            <TD class=line_lbt align=middle width="5%" 
-                              height=10>6</TD>
-
-                            <TD class=line_lbt align=middle width="5%" 
-                              height=10>0</TD>
-
-                            <TD class=line_lbt align=middle width="5%" 
-                              height=10>0</TD>
-                            <TD class=line_lbt align=middle width="5%" 
-                              height=10>1</TD>
-                            <TD class=line_lbt align=middle width="5%" 
-                              height=10>0</TD>
-                            <TD class=line_lbt align=middle width="5%" 
-                              height=10>3</TD>
-                            <TD class=line_lbt align=middle width="5%" 
-                              height=10>2</TD>
-
-                            <TD class=line_lbt align=middle width="5%" 
-                              height=10>8</TD>
-
-                            <TD class=line_lbt align=middle width="5%" 
-                              height=10>7</TD>
-                            <TD class=line_lbt align=middle width="5%" 
-                              height=10>0</TD>
-                            <TD class=line_lbt align=middle width="5%" 
-                              height=10>1</TD></TR></TBODY></TABLE></TD></TR>
+                              height=10>0</TD><TD class=line_lbt align=middle width="5%" 
+                              height=10>0</TD><TD class=line_lbt align=middle width="5%" 
+                              height=10>0</TD><TD class=line_lbt align=middle width="5%" 
+                              height=10>0</TD><TD class=line_lbt align=middle width="5%" 
+                              height=10>0</TD><TD class=line_lbt align=middle width="5%" 
+                              height=10>0</TD><TD class=line_lbt align=middle width="5%" 
+                              height=10>0</TD><TD class=line_lbt align=middle width="5%" 
+                              height=10>0</TD><TD class=line_lbt align=middle width="5%" 
+                              height=10>0</TD><TD class=line_lbt align=middle width="5%" 
+                              height=10>0</TD><TD class=line_lbt align=middle width="5%" 
+                              height=10>0</TD><TD class=line_lbt align=middle width="5%" 
+                              height=10>0</TD><TD class=line_lbt align=middle width="5%" 
+                              height=10>0</TD><TD class=line_lbt align=middle width="5%" 
+                              height=10>0</TD><TD class=line_lbt align=middle width="5%" 
+                              height=10>0</TD><TD class=line_lbt align=middle width="5%" 
+                              height=10>0</TD><TD class=line_lbt align=middle width="5%" 
+                              height=10>0</TD><TD class=line_lbt align=middle width="5%" 
+                              height=10>0</TD><TD class=line_lbt align=middle width="5%" 
+                              height=10>0</TD><TD class=line_lbt align=middle width="5%" 
+                              height=10>0</TD></TR></TBODY></TABLE></TD></TR>
                     <TR>
                       <TD class=t6n vAlign=top align=middle>(ИНН получателя 
                         платежа)</TD>
@@ -549,7 +450,7 @@ width="4%">&nbsp;201&nbsp;</TD>
                       <TD class=t8n vAlign=bottom width=10>в</TD>
 
                       <TD class=h8b vAlign=bottom 
-                        align=middle>Томский&nbsp;филиал&nbsp;ОАО&nbsp;"Промсвязьбанк"&nbsp;г.Томска 
+                        align=middle>Филиал&nbsp;банка&nbsp;"Example Bank"&nbsp;г.&nbsp;Пример 
                       </TD>
 
                       <TD class=t8n vAlign=bottom align=right 
@@ -563,24 +464,24 @@ width="4%">&nbsp;201&nbsp;</TD>
                             <TD class=line_lbt align=middle width="10%" 
                             height=10>0</TD>
                             <TD class=line_lbt align=middle width="10%" 
-                            height=10>4</TD>
+                            height=10>0</TD>
 
-                            <TD class=line_lbt align=middle width="10%" 
-                            height=10>6</TD>
-                            <TD class=line_lbt align=middle width="10%" 
-                            height=10>9</TD>
-
-                            <TD class=line_lbt align=middle width="10%" 
-                            height=10>1</TD>
                             <TD class=line_lbt align=middle width="10%" 
                             height=10>0</TD>
-                            <TD class=line_lbt align=middle width="10%" 
-                            height=10>7</TD>
                             <TD class=line_lbt align=middle width="10%" 
                             height=10>0</TD>
 
                             <TD class=line_lbt align=middle width="10%" 
-                            height=10>7</TD></TR></TBODY></TABLE></TD></TR>
+                            height=10>0</TD>
+                            <TD class=line_lbt align=middle width="10%" 
+                            height=10>0</TD>
+                            <TD class=line_lbt align=middle width="10%" 
+                            height=10>0</TD>
+                            <TD class=line_lbt align=middle width="10%" 
+                            height=10>0</TD>
+
+                            <TD class=line_lbt align=middle width="10%" 
+                            height=10>0</TD></TR></TBODY></TABLE></TD></TR>
                     <TR>
 
                       <TD>&nbsp;</TD>
@@ -605,51 +506,26 @@ width="4%">&nbsp;201&nbsp;</TD>
                           <TR>
 
                             <TD class=line_lbt align=middle width="5%" 
-                              height=10>3</TD>
-                            <TD class=line_lbt align=middle width="5%" 
-                              height=10>0</TD>
-                            <TD class=line_lbt align=middle width="5%" 
-                              height=10>1</TD>
-                            <TD class=line_lbt align=middle width="5%" 
-                              height=10>0</TD>
-                            <TD class=line_lbt align=middle width="5%" 
-                              height=10>1</TD>
-
-                            <TD class=line_lbt align=middle width="5%" 
-                              height=10>8</TD>
-
-                            <TD class=line_lbt align=middle width="5%" 
-                              height=10>1</TD>
-                            <TD class=line_lbt align=middle width="5%" 
-                              height=10>0</TD>
-                            <TD class=line_lbt align=middle width="5%" 
-                              height=10>5</TD>
-                            <TD class=line_lbt align=middle width="5%" 
-                              height=10>0</TD>
-                            <TD class=line_lbt align=middle width="5%" 
-                              height=10>0</TD>
-
-                            <TD class=line_lbt align=middle width="5%" 
-                              height=10>0</TD>
-
-                            <TD class=line_lbt align=middle width="5%" 
-                              height=10>0</TD>
-                            <TD class=line_lbt align=middle width="5%" 
-                              height=10>0</TD>
-                            <TD class=line_lbt align=middle width="5%" 
-                              height=10>0</TD>
-                            <TD class=line_lbt align=middle width="5%" 
-                              height=10>0</TD>
-                            <TD class=line_lbt align=middle width="5%" 
-                              height=10>0</TD>
-
-                            <TD class=line_lbt align=middle width="5%" 
-                              height=10>7</TD>
-
-                            <TD class=line_lbt align=middle width="5%" 
-                              height=10>0</TD>
-                            <TD class=line_lbt align=middle width="5%" 
-                              height=10>7</TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR>
+                              height=10>0</TD><TD class=line_lbt align=middle width="5%" 
+                              height=10>0</TD><TD class=line_lbt align=middle width="5%" 
+                              height=10>0</TD><TD class=line_lbt align=middle width="5%" 
+                              height=10>0</TD><TD class=line_lbt align=middle width="5%" 
+                              height=10>0</TD><TD class=line_lbt align=middle width="5%" 
+                              height=10>0</TD><TD class=line_lbt align=middle width="5%" 
+                              height=10>0</TD><TD class=line_lbt align=middle width="5%" 
+                              height=10>0</TD><TD class=line_lbt align=middle width="5%" 
+                              height=10>0</TD><TD class=line_lbt align=middle width="5%" 
+                              height=10>0</TD><TD class=line_lbt align=middle width="5%" 
+                              height=10>0</TD><TD class=line_lbt align=middle width="5%" 
+                              height=10>0</TD><TD class=line_lbt align=middle width="5%" 
+                              height=10>0</TD><TD class=line_lbt align=middle width="5%" 
+                              height=10>0</TD><TD class=line_lbt align=middle width="5%" 
+                              height=10>0</TD><TD class=line_lbt align=middle width="5%" 
+                              height=10>0</TD><TD class=line_lbt align=middle width="5%" 
+                              height=10>0</TD><TD class=line_lbt align=middle width="5%" 
+                              height=10>0</TD><TD class=line_lbt align=middle width="5%" 
+                              height=10>0</TD><TD class=line_lbt align=middle width="5%" 
+                              height=10>0</TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR>
               <TR>
                 <TD>
                   <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
@@ -658,7 +534,7 @@ width="4%">&nbsp;201&nbsp;</TD>
                     <TR>
 
                       <TD class=h8b vAlign=bottom 
-                        width="55%">Размещение&nbsp;информационно-рекламного&nbsp;<BR>материала&nbsp;на&nbsp;сайте&nbsp;"Томские&nbsp;Форумы" (л/с {php}echo $_POST['userid'];{/php})
+                        width="55%">Размещение&nbsp;информационно-рекламного&nbsp;<BR>материала&nbsp;на&nbsp;сайте&nbsp;"Example&nbsp;Forum" (л/с {php}echo $_POST['userid'];{/php})
                       </TD>
                       <TD width="5%">&nbsp;</TD>
                       <TD class=h8b vAlign=bottom>&nbsp;</TD></TR>

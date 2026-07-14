@@ -2,7 +2,7 @@
 
 <div class="navigation">
 	<div class="box_path">
-		:: <a href="#">Томские форумы</A> &nbsp;/&nbsp; {$group_info.caption}
+		:: <a href="#">Example Forum</A> &nbsp;/&nbsp; {$group_info.caption}
     </div>
 </div>
 <div id="overlay"></div>

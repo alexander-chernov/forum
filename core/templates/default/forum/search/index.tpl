@@ -1,7 +1,7 @@
 {include file="forum/header.tpl"}
 <div class="navigation">
 	<div class="box_path">
-		:: <a href="/forum/">Томские форумы</A> &nbsp;/&nbsp; ПОИСК
+		:: <a href="/forum/">Example Forum</A> &nbsp;/&nbsp; ПОИСК
     </div>
     {literal}
     	<script type="text/javascript">

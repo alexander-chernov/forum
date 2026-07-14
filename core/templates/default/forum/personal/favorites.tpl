@@ -11,7 +11,7 @@
 <div class="navigation">
 	<div class="complaint"></div>
 	<div class="box_path">
-		:: <a href="/forum/">Томские форумы</A> &nbsp;/&nbsp; Избранное
+		:: <a href="/forum/">Example Forum</A> &nbsp;/&nbsp; Избранное
     </div>
 </div>
 <div class="line1"></div>

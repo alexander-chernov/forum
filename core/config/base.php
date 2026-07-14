@@ -113,7 +113,7 @@ define('ALLOW_WRITE_THEME_VALIDUSER',2);
 define('DISALLOW_WRITE_THEME_VALIDUSER',3);
 
 define('ENCRYPT_KEY','SuperStrongPasswordEncryptionWord');
-define('ENCRYPT_IV',"fYfhHeDm");
+define('ENCRYPT_IV',"EncryptedIV");
 define('ENCRYPT_BIT_CHECK',8);
 
 /*define('','');

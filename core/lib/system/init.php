@@ -27,7 +27,7 @@ function CreateObject()
 // отладочная функция
 function Debug($variable, $ip = false)
 {
-    if ($ip == true && substr($_SERVER[ 'REMOTE_ADDR' ],0,12) == '192.168.151.') {
+    if ($ip == true && substr($_SERVER[ 'REMOTE_ADDR' ],0,7) == '10.0.0.') {
         static $style = 'background-color:#FFF; color:#000; padding: 3px;';
         echo '<pre style="' . $style . '">';
         var_dump ($variable);

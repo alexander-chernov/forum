@@ -44,7 +44,7 @@ $( ".autocomplete" ).autocomplete(
 {/literal}
 <div class="navigation">
 	<div class="box_path">
-		:: <a href="#">Томские форумы</A> &nbsp;/&nbsp; Черный список
+		:: <a href="#">Example Forum</A> &nbsp;/&nbsp; Черный список
     </div>
 </div>
 <div class="box_pasport">
